@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+.desc {
+    min-width: 620px;
+    border: 1px solid black;
+}
+
+.acc-header {
+    border: 1px solid black;
+}
+
+.tab {
+    min-width: 600px;
+    max-width: 800px;
+    padding-right: 100px;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    min-height: 600px;
+}
+
+#left-panel {
+    font-family: consolas;
+    font-size: 30px;
+    display: flex;
+    flex-direction: Column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    border: 1px solid #333;
+}
+
+
+/*
+.acc-header {
+    background-color: #DDC961;
+}*/
